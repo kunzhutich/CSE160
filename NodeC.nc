@@ -30,4 +30,10 @@ implementation {
 
     components CommandHandlerC;
     Node.CommandHandler -> CommandHandlerC;
+
+    components FloodC;
+    Node.Flood -> FloodC;
+
+    components NdiscC;
+    Node.Ndisk -> NDiskC; 
 }

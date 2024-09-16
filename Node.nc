@@ -22,6 +22,10 @@ module Node{
    uses interface SimpleSend as Sender;
 
    uses interface CommandHandler;
+
+   uses interface Flood;
+
+   uses interface NDisk;
 }
 
 implementation{
